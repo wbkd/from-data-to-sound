@@ -1,0 +1,23 @@
+{
+  "name": "from-data-to-midi",
+  "version": "1.0.0",
+  "description": "simple Node.js script to transform data to a MIDI file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbkd/from-data-to-midi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbkd/from-data-to-midi/issues"
+  },
+  "homepage": "https://github.com/wbkd/from-data-to-midi#readme",
+  "dependencies": {
+    "scribbletune": "^0.11.2"
+  }
+}
