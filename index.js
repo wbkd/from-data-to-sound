@@ -9,7 +9,7 @@ const scale = ['c', 'd', 'e', 'f#', 'g#', 'a#'];
 
 // creates array of notes like 'c1', 'd1', 'e1', 'f#1', 'g#1', 'a#1', 'c2', 'd2', ...
 const notes = numberOfScales.reduce((res, num) =>
-  res.concat(scale.map(note => `${note}${num + 1}`))
+  res.concat(scale.map(note => `${note}${num}`))
 , []);
 
 const midiData = scribble.clip({
@@ -18,4 +18,5 @@ const midiData = scribble.clip({
   noteLength: '1/16',
 });
 
+// write the MIDI file 🎵🎵🎵
 scribble.midi(midiData, 'data-sonification.mid');
