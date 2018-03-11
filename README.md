@@ -1,4 +1,4 @@
-# From Data to Sound
+# 🎹 From Data to Sound
 
 Simple Node.js script to transform an array of values to a MIDI file.
 
