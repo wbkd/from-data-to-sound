@@ -1,7 +1,7 @@
 {
-  "name": "from-data-to-midi",
+  "name": "from-data-to-sound",
   "version": "1.0.0",
-  "description": "simple Node.js script to transform data to a MIDI file",
+  "description": "Simple Node.js script to transform data to a MIDI file",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,12 +11,16 @@
     "url": "git+https://github.com/wbkd/from-data-to-midi.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wbkd/from-data-to-midi/issues"
+  "author": {
+    "name" : "Moritz Klack",
+    "email" : "moritz@webkid.io",
+    "url" : "https://webkid.io"
   },
-  "homepage": "https://github.com/wbkd/from-data-to-midi#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbkd/from-data-to-sound/issues"
+  },
+  "homepage": "https://github.com/wbkd/from-data-to-sound#readme",
   "dependencies": {
     "scribbletune": "^0.11.2"
   }
