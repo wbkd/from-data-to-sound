@@ -8,7 +8,7 @@ const numberOfScales = [...Array(5)].map((d, i) => i + 1); // [1, 2, 3, 4, 5]
 
 // creates array of notes like 'c1', 'd1', 'e1', 'gb1', 'ab1', 'bb1', 'c2', ...
 const notes = numberOfScales.reduce((res, num) =>
-  res.concat(scribble.mode('c', 'whole tone', num, false))
+  res.concat(scribble.scale('c', 'whole tone', num, false))
 , []);
 
 const midiData = scribble.clip({
